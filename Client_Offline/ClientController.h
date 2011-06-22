@@ -19,8 +19,6 @@
  IBOutlet id name;
  IBOutlet id status;
  IBOutlet id location;
- //BOOL isSignedIn;
-// IBOutlet id mylocation;
  IBOutlet id bottom_text;
 	
  IBOutlet NSWindow *User_Login;
@@ -36,7 +34,7 @@
 -(IBAction)depart_clicked:(id)sender;
 -(IBAction)refresh_clicked:(id)sender;
 -(IBAction)mylocation_clicked:(id)sender;
-//-(IBAction)Displaylocation_clicked:(id)sender;
+
 
 
 
