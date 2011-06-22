@@ -61,7 +61,6 @@
 	
 	NSLog(@" entered inner json");
 	NSString* buffer=[[NSString alloc] initWithFormat:@"{\"name\": \"%@\", \"address\": \"%@\", \"class_id\": \"%d\", \"dev_class\": %@}",[self getname],[self getaddress],[self getclassId],[self getdeviceClass]];
-//	NSLog(@" The value of buffer inner is %@",buffer);
 	return buffer;
 	
 	
