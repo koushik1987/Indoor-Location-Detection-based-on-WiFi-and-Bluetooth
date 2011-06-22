@@ -52,8 +52,6 @@ threadclass *threadclassObj;
 	if([read_user_name length] == 0 || [read_password length] == 0)
 	{
 		
-	//	wrong_user = 1;
-	
 	NSAlert *alert = [[[NSAlert alloc]init]autorelease];
 	[alert setMessageText:@"Warning Message"];
 	[alert setInformativeText:@" Enter Username and Password"];
@@ -131,7 +129,7 @@ if([login_obj authenticate_sucessful])
 
 	else
     {
-		 // auh failed. Show failuer message ot user and await re-attempt
+		 // auth failed. Show failure message to user and await re-attempt
 		
 			
 			NSAlert *alert = [[[NSAlert alloc]init]autorelease];
@@ -169,20 +167,11 @@ if([login_obj authenticate_sucessful])
 		[password setStringValue:@""];
 		[name setStringValue:@""];
 		[status setStringValue:@""];
-		[location setStringValue:@""];
-	//	[mylocation setStringValue:@""];
-	//	[NSThread sleepForTimeInterval:100];
-		
-		
+		[location setStringValue:@""];	
 		[Location_Information orderOut: self];
 		[NSApp endSheet:Location_Information];	
 		[NSApp beginSheet:User_Login modalForWindow:nil modalDelegate:self didEndSelector:nil contextInfo:nil];
-             
-		
-
-		
-		
-		}
+             }
 	else 
 	{
 		NSLog(@" Sign out Unsucessful");
@@ -211,13 +200,6 @@ if([login_obj authenticate_sucessful])
 		{
 				resultCode = 3;
 			NSLog(@" Event Updated Successfuly");
-		/*	NSAlert *alert = [[[NSAlert alloc]init]autorelease];
-			[alert setMessageText:@"Message"];
-			[alert setInformativeText:@" Updated Status and Location "];
-			[alert addButtonWithTitle:@"OK"];
-			int rcode = [alert runModal];
-			if(rcode == NSAlertFirstButtonReturn)
-				NSLog(@"First button pressed"); */
 			[bottom_text setStringValue:@""];
 			[bottom_text setStringValue:@"Updated Label and Status Successfully"];
 			
@@ -257,13 +239,6 @@ if([login_obj authenticate_sucessful])
 	{
 		
 		NSLog(@" Event Updated Successfuly");
-	/*	NSAlert *alert = [[[NSAlert alloc]init]autorelease];
-		[alert setMessageText:@"Message"];
-		[alert setInformativeText:@" Event is Successfully Submitted"];
-		[alert addButtonWithTitle:@"OK"];
-		int rcode = [alert runModal];
-		if(rcode == NSAlertFirstButtonReturn)
-			NSLog(@"First button pressed");*/
 		[bottom_text setStringValue:@""];
 		[bottom_text setStringValue:@"Enter clicked Successfully"];
 		
@@ -282,14 +257,6 @@ if([login_obj authenticate_sucessful])
 	{
 		NSLog(@" Event Updated Successfuly");
 		NSLog(@" Event Updated Successfuly");
-	/*	NSAlert *alert = [[[NSAlert alloc]init]autorelease];
-		[alert setMessageText:@"Message"];
-		[alert setInformativeText:@" Event is Successfully Submitted"];
-		[alert addButtonWithTitle:@"OK"];
-		int rcode = [alert runModal];
-		if(rcode == NSAlertFirstButtonReturn)
-			NSLog(@"First button pressed"); */
-		
 		[bottom_text setStringValue:@""];
 		[bottom_text setStringValue:@"Depart clicked Successfully"];
 		
@@ -355,7 +322,6 @@ if([login_obj authenticate_sucessful])
 //}
 
 //-(IBAction)Displaylocation_clicked :(id)sender
-//{
 
 if(y>4)
 	{
@@ -376,9 +342,6 @@ if(y>4)
 			
 		}
 		
-	//	NSString *str_label = @"My Location:";
-//		str_label = [str_label stringByAppendingString:myloc_string];
-		//[mylocation setStringValue:@"My Location:"];
 			[location setStringValue:myloc_string];
 		
 			}
@@ -386,6 +349,6 @@ if(y>4)
 	{
 		[location setStringValue:@"No Nearby Locations"];
 	}
-//}
+
 }
 @end
