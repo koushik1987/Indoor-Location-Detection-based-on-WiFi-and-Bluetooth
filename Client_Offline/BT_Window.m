@@ -47,7 +47,6 @@
 	 NSLog(@" Entered tojson");
 	NSString *time_start1 = [[self getcapturedAt] description];
 	NSLog(@" the value of time is %@",time_start1);
-//	NSString *time_end = [[self getendtime]description];
 	NSString* buffer=[[NSString alloc] initWithFormat:@"{\r\n\"captured_at\":\"%@\",\r\n\"device_list\": [\r\n ",time_start1];
 	NSLog(@" the value of buffer at start is %@",buffer);
 	NSEnumerator *enumerator = [[self getdeviceList] objectEnumerator];
@@ -62,8 +61,7 @@
 		delimeter =@",\r\n";
 	}
 	buffer = [buffer stringByAppendingString:@"]\r\n}"];
-//	NSLog(@" The value of buffer is %@",buffer);
-	return buffer;
+        return buffer;
 	
 	
 }
