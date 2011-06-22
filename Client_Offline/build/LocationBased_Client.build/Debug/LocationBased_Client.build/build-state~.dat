@@ -1,0 +1,460 @@
+TLocationBased_Client
+v7
+r0
+t301002573.004556
+cCheck dependencies
+cProcessInfoPlistFile /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Info.plist LocationBased_Client-Info.plist
+cCopyStringsFile /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/koushik/Desktop/LocationBased_Client/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch.gch LocationBased_Client_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/main.o /Users/koushik/Desktop/LocationBased_Client/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/LocationBased_ClientAppDelegate.o /Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSObject+SBJSON.o /Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSString+SBJSON.o /Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJSON.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonBase.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonParser.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonWriter.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/ClientController.o /Users/koushik/Desktop/LocationBased_Client/ClientController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/login.o /Users/koushik/Desktop/LocationBased_Client/login.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreWLAN.framework/CoreWLAN
+c000000004B99A2330000000000014AF4
+t1268359731
+s84724
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B447F4E00000000000013E6
+t1262780238
+s5094
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/koushik/Desktop/LocationBased_Client/ClientController.h
+c000000004C40B7C60000000000000142
+t1279309766
+s322
+i<Cocoa/Cocoa.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/ClientController.m
+c000000004C40B7C6000000000000028A
+t1279309766
+s650
+i"ClientController.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/English.lproj/InfoPlist.strings
+c000000004C407129000000000000002D
+t1279291689
+s45
+
+N/Users/koushik/Desktop/LocationBased_Client/English.lproj/MainMenu.xib
+c000000004C40794A000000000002FC6C
+t1279293770
+s195692
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.h
+c000000004C4071290000000000000169
+t1279291689
+s361
+i<Cocoa/Cocoa.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m
+c000000004C40712900000000000001AB
+t1279291689
+s427
+i"LocationBased_ClientAppDelegate.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/LocationBased_Client_Prefix.pch
+c000000004C40712900000000000000AB
+t1279291689
+s171
+i<Cocoa/Cocoa.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app
+t2
+s0
+
+N/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Info.plist
+t1279309766
+s925
+
+N/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/MacOS/LocationBased_Client
+t2
+s0
+
+N/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/PkgInfo
+t1279309766
+s8
+
+N/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1279309767
+s92
+
+N/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj/MainMenu.nib
+t1279309767
+s38111
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/ClientController.o
+t2
+s0
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/LocationBased_Client.LinkFileList
+c000000004C40B7C600000000000005C4
+t1279309766
+s1476
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/LocationBased_ClientAppDelegate.o
+t1279309772
+s21440
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSObject+SBJSON.o
+t1279309772
+s9152
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSString+SBJSON.o
+t1279309772
+s9064
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJSON.o
+t1279309772
+s22928
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonBase.o
+t1279309772
+s15384
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonParser.o
+t1279309772
+s38088
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonWriter.o
+t1279309772
+s29576
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/login.o
+t2
+s0
+
+N/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/main.o
+t1279309772
+s5000
+
+N/Users/koushik/Desktop/LocationBased_Client/login.h
+c000000004C40B7C60000000000000182
+t1279309766
+s386
+i<Cocoa/Cocoa.h>
+
+N/Users/koushik/Desktop/LocationBased_Client/login.m
+c000000004C40B7C60000000000000C2E
+t1279309766
+s3118
+i"login.h"
+
+N/Users/koushik/Desktop/LocationBased_Client/main.m
+c000000004C4071290000000000000111
+t1279291689
+s273
+i<Cocoa/Cocoa.h>
+
+N/var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch.gch
+t1279309771
+s54265616
+
+NLocationBased_Client-Info.plist
+c000000004C40712900000000000003EA
+t1279291689
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301002566#301002566#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/ClientController.o /Users/koushik/Desktop/LocationBased_Client/ClientController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.808146
+e301002572.936998
+r0
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/ClientController.o
+x/Users/koushik/Desktop/LocationBased_Client/ClientController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/koushik/Desktop/LocationBased_Client/ClientController.m:9:
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.h:14: error: expected specifier-qualifier-list before '-' token
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.h:15: error: expected specifier-qualifier-list before '-' token
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m: In function '-[ClientController signin:]':
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m:17: error: 'username' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m:17: error: (Each undeclared identifier is reported only once
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m:17: error: for each function it appears in.)
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m:18: error: 'password' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m:20: error: 'login' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/ClientController.m:20: error: 'login_obj' undeclared (first use in this function)
+lSLF07#2@70"Compile /Users/koushik/Desktop/LocationBased_Client/ClientController.m301002572#301002573#0(1175"In file included from /Users/koushik/Desktop/LocationBased_Client/ClientController.m:9:/Users/koushik/Desktop/LocationBased_Client/ClientController.h:14: error: expected specifier-qualifier-list before '-' token/Users/koushik/Desktop/LocationBased_Client/ClientController.h:15: error: expected specifier-qualifier-list before '-' token/Users/koushik/Desktop/LocationBased_Client/ClientController.m: In function '-[ClientController signin:]':/Users/koushik/Desktop/LocationBased_Client/ClientController.m:17: error: 'username' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/ClientController.m:17: error: (Each undeclared identifier is reported only once/Users/koushik/Desktop/LocationBased_Client/ClientController.m:17: error: for each function it appears in.)/Users/koushik/Desktop/LocationBased_Client/ClientController.m:18: error: 'password' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/ClientController.m:20: error: 'login' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/ClientController.m:20: error: 'login_obj' undeclared (first use in this function)6(4@50"Expected specifier-qualifier-list before '-' token301002572#88#125#2(7@84"In file included from /Users/koushik/Desktop/LocationBased_Client/ClientController.m301002572#18446744073709551615#0#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m301002566#9#0#9#0#0"0(13@116"Expected specifier-qualifier-list before '-' token in /Users/koushik/Desktop/LocationBased_Client/ClientController.h301002572#18446744073709551615#0#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.h301002566#14#0#14#0#0"0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.h301002566#14#0#14#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before '-' token301002572#213#125#2(7@84"In file included from /Users/koushik/Desktop/LocationBased_Client/ClientController.m301002572#18446744073709551615#0#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m301002566#9#0#9#0#0"0(13@116"Expected specifier-qualifier-list before '-' token in /Users/koushik/Desktop/LocationBased_Client/ClientController.h301002572#18446744073709551615#0#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.h301002566#15#0#15#0#0"0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.h301002566#15#0#15#0#19"expected * before *0(4@50"'username' undeclared (first use in this function)301002572#445#125#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m301002566#17#0#17#0#43"'*' undeclared (first use in this function)0(4@50"'password' undeclared (first use in this function)301002572#802#125#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m301002566#18#0#18#0#43"'*' undeclared (first use in this function)0(4@47"'login' undeclared (first use in this function)301002572#927#122#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m301002566#20#0#20#0#43"'*' undeclared (first use in this function)0(4@51"'login_obj' undeclared (first use in this function)301002572#1049#126#0(6@62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m301002566#20#0#20#0#43"'*' undeclared (first use in this function)0(0#0#62"/Users/koushik/Desktop/LocationBased_Client/ClientController.m4300911832#1789"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/ClientController.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/ClientController.o1#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/LocationBased_ClientAppDelegate.o /Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002571.886469
+e301002572.155328
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/LocationBased_ClientAppDelegate.o
+x/Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m301002571#301002572#0(0"0(0#0#77"/Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m4300911832#1819"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/LocationBased_ClientAppDelegate.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/LocationBased_ClientAppDelegate.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSObject+SBJSON.o /Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.072868
+e301002572.391266
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSObject+SBJSON.o
+x/Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m301002572#301002572#0(0"0(0#0#66"/Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m4300911832#1792"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/JSON/NSObject+SBJSON.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSObject+SBJSON.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSString+SBJSON.o /Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.155481
+e301002572.379319
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSString+SBJSON.o
+x/Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m301002572#301002572#0(0"0(0#0#66"/Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m4300911832#1792"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/JSON/NSString+SBJSON.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/NSString+SBJSON.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJSON.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.379431
+e301002572.603192
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJSON.o
+x/Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m301002572#301002572#0(0"0(0#0#57"/Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m4300911832#1774"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/JSON/SBJSON.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJSON.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonBase.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.391379
+e301002572.587454
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonBase.o
+x/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m301002572#301002572#0(0"0(0#0#61"/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m4300911832#1782"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonBase.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonBase.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonParser.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.587571
+e301002572.873888
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonParser.o
+x/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m301002572#301002572#0(0"0(0#0#63"/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m4300911832#1786"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonParser.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonParser.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonWriter.o /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.603304
+e301002572.808025
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonWriter.o
+x/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m301002572#301002572#0(0"0(0#0#63"/Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m4300911832#1786"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/JSON/SBJsonWriter.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/SBJsonWriter.o0#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/login.o /Users/koushik/Desktop/LocationBased_Client/login.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002572.874001
+e301002573.004482
+r0
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/login.o
+x/Users/koushik/Desktop/LocationBased_Client/login.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/koushik/Desktop/LocationBased_Client/login.m: In function '-[login authenticate::]':
+o/Users/koushik/Desktop/LocationBased_Client/login.m:47: error: 'postLength' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/login.m:47: error: (Each undeclared identifier is reported only once
+o/Users/koushik/Desktop/LocationBased_Client/login.m:47: error: for each function it appears in.)
+o/Users/koushik/Desktop/LocationBased_Client/login.m:68: error: 'parser' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/login.m:72: error: 'data' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/login.m:101: warning: unused variable 'userinfo'
+o/Users/koushik/Desktop/LocationBased_Client/login.m:70: warning: unused variable 'response_entry'
+o/Users/koushik/Desktop/LocationBased_Client/login.m:33: warning: unused variable 'postLength_login'
+o/Users/koushik/Desktop/LocationBased_Client/login.m: In function '-[login get_username]':
+o/Users/koushik/Desktop/LocationBased_Client/login.m:126: error: 'userinfo' undeclared (first use in this function)
+o/Users/koushik/Desktop/LocationBased_Client/login.m:127: warning: control reaches end of non-void function
+lSLF07#2@59"Compile /Users/koushik/Desktop/LocationBased_Client/login.m301002572#301002573#0(1243"/Users/koushik/Desktop/LocationBased_Client/login.m: In function '-[login authenticate::]':/Users/koushik/Desktop/LocationBased_Client/login.m:47: error: 'postLength' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/login.m:47: error: (Each undeclared identifier is reported only once/Users/koushik/Desktop/LocationBased_Client/login.m:47: error: for each function it appears in.)/Users/koushik/Desktop/LocationBased_Client/login.m:68: error: 'parser' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/login.m:72: error: 'data' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/login.m:101: warning: unused variable 'userinfo'/Users/koushik/Desktop/LocationBased_Client/login.m:70: warning: unused variable 'response_entry'/Users/koushik/Desktop/LocationBased_Client/login.m:33: warning: unused variable 'postLength_login'/Users/koushik/Desktop/LocationBased_Client/login.m: In function '-[login get_username]':/Users/koushik/Desktop/LocationBased_Client/login.m:126: error: 'userinfo' undeclared (first use in this function)/Users/koushik/Desktop/LocationBased_Client/login.m:127: warning: control reaches end of non-void function8(4@52"'postLength' undeclared (first use in this function)301002572#92#116#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#47#0#47#0#43"'*' undeclared (first use in this function)0(4@48"'parser' undeclared (first use in this function)301002572#418#112#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#68#0#68#0#43"'*' undeclared (first use in this function)0(4@46"'data' undeclared (first use in this function)301002572#530#110#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#72#0#72#0#43"'*' undeclared (first use in this function)0(22@26"Unused variable 'userinfo'301002572#640#93#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#101#0#101#0#19"unused variable '*'0(22@32"Unused variable 'response_entry'301002572#733#98#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#70#0#70#0#19"unused variable '*'0(22@34"Unused variable 'postLength_login'301002572#831#100#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#33#0#33#0#19"unused variable '*'0(4@50"'userinfo' undeclared (first use in this function)301002572#1021#115#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#126#0#126#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function301002572#1136#107#0(6@51"/Users/koushik/Desktop/LocationBased_Client/login.m301002566#127#0#127#0#40"control reaches end of non-void function0(0#0#51"/Users/koushik/Desktop/LocationBased_Client/login.m4300911832#1767"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/login.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/login.o1#
+
+CCompileC build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/main.o /Users/koushik/Desktop/LocationBased_Client/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002571.870069
+e301002572.072752
+r1
+xCompileC
+xbuild/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/main.o
+x/Users/koushik/Desktop/LocationBased_Client/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/koushik/Desktop/LocationBased_Client/main.m301002571#301002572#0(0"0(0#0#50"/Users/koushik/Desktop/LocationBased_Client/main.m4300911832#1765"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -include /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch -c /Users/koushik/Desktop/LocationBased_Client/main.m -o /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/koushik/Desktop/LocationBased_Client/English.lproj/MainMenu.xib
+s301002566.737263
+e301002567.663159
+r1
+xCompileXIB
+x/Users/koushik/Desktop/LocationBased_Client/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib301002566#301002567#0(0"0(0#0#70"/Users/koushik/Desktop/LocationBased_Client/English.lproj/MainMenu.xib4300911832#355"    cd /Users/koushik/Desktop/LocationBased_Client    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj/MainMenu.nib /Users/koushik/Desktop/LocationBased_Client/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s301002566.736471
+e301002567.273331
+r1
+xCopyStringsFile
+x/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings301002566#301002567#0(0"0(0#0#75"/Users/koushik/Desktop/LocationBased_Client/English.lproj/InfoPlist.strings4300911832#388"    cd /Users/koushik/Desktop/LocationBased_Client    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Resources/English.lproj0#
+
+CLd /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/MacOS/LocationBased_Client normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Info.plist LocationBased_Client-Info.plist
+s301002566.702539
+e301002566.736385
+r1
+xProcessInfoPlistFile
+x/Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Info.plist
+xLocationBased_Client-Info.plist
+lSLF07#2@39"Process LocationBased_Client-Info.plist301002566#301002566#0(0"0(0#0#75"/Users/koushik/Desktop/LocationBased_Client/LocationBased_Client-Info.plist4300911832#364"    cd /Users/koushik/Desktop/LocationBased_Client    builtin-infoPlistUtility LocationBased_Client-Info.plist -genpkginfo /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch.gch LocationBased_Client_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301002567.663291
+e301002571.869671
+r1
+xProcessPCH
+x/var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch.gch
+xLocationBased_Client_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile LocationBased_Client_Prefix.pch301002567#301002571#0(0"0(0#0#75"/Users/koushik/Desktop/LocationBased_Client/LocationBased_Client_Prefix.pch4300911832#1653"    cd /Users/koushik/Desktop/LocationBased_Client    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-generated-files.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-own-target-headers.hmap -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-all-target-headers.hmap -iquote /Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/LocationBased_Client-project-headers.hmap -F/Users/koushik/Desktop/LocationBased_Client/build/Debug -I/Users/koushik/Desktop/LocationBased_Client/build/Debug/include -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources/x86_64 -I/Users/koushik/Desktop/LocationBased_Client/build/LocationBased_Client.build/Debug/LocationBased_Client.build/DerivedSources -c /Users/koushik/Desktop/LocationBased_Client/LocationBased_Client_Prefix.pch -o /var/folders/OO/OOwz6VvdFs8TnbnAEMMjpk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/LocationBased_Client_Prefix-fprwhcgolonkkxffuzhbyjlhqvbv/LocationBased_Client_Prefix.pch.gch0#
+
+CTouch /Users/koushik/Desktop/LocationBased_Client/build/Debug/LocationBased_Client.app
+r0
+

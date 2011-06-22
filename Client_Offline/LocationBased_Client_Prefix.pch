@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'LocationBased_Client' target in the 'LocationBased_Client' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
