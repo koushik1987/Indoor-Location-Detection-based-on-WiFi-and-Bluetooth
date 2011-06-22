@@ -36,7 +36,7 @@
    NSLog(@"start1111"); 
 	
 	IOBluetoothDeviceInquiry *d = [[IOBluetoothDeviceInquiry alloc] init];
-	//	  [d setInquiryLength: 18];
+
 	[d setUpdateNewDeviceNames: TRUE];
 	[d start];
 	[NSThread sleepUntilDate: [NSDate dateWithTimeIntervalSinceNow: 30]];
@@ -93,7 +93,7 @@
 	
 	return btwindow_obj;
 	
-//	[btwindow_obj autorelease];
+
 	
 }
 
